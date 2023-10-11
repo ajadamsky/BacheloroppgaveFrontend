@@ -1,0 +1,98 @@
+.link-muted {
+  color: #aaa;
+}
+.link-muted:hover {
+  color: #1266f1;
+}
+
+.posts-single-post {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.102) 0px 1px 8px;
+  padding-bottom : 10px !important;
+}
+
+.posts-single-post:hover {
+  background-color: #ebebeb ;
+  
+}
+
+.posts-single-post:active {
+  background-color: #ebebeb ;
+  border: 1px solid #1d3c34;
+}
+
+.post-anchor {
+  color: inherit !important;
+  text-decoration: none !important;
+  
+}
+
+
+.blank-space {
+    height: 20px;
+    background-color: #f0f4e3 !important;
+
+}
+
+
+.blank-space-header {
+  height: 50px;
+  background-color: #f0f4e3 !important;
+
+}
+
+.card {
+    border: 0 !important;
+}
+
+.header-text {
+  background-color: #D4EABC !important;
+  color: #1d3c34 !important;
+} 
+
+.post-desc {
+  max-height: 10rem;
+  overflow-y: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.post-desc:hover:before {
+  content:'';
+  width:100%;
+  height:100%;    
+  position:absolute;
+  left:0;
+  top:0;
+  background:linear-gradient(transparent 100px, #ebebeb);
+}
+
+.post-desc::before {
+  content:'';
+  width:100%;
+  height:100%;    
+  position:absolute;
+  left:0;
+  top:0;
+  background:linear-gradient(transparent 100px, #ffffff);
+}
+
+.voteButton {
+  all: unset;
+  cursor: pointer;
+  text-align: center;
+}
+
+.voteButton {
+  all: unset;
+  cursor: pointer;
+  text-align: center;
+}
+
+.voteButton:focus {
+  outline: rgb(150, 150, 150) 5px auto;
+}
+
+.voteButton:hover {
+  outline: rgb(150, 150, 150) 5px auto;
+}

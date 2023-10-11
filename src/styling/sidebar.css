@@ -1,0 +1,17 @@
+.sidenav {
+    background-color: #1d3c34;
+    top: 81px;
+    width: 10px;
+}
+
+@media (max-width : 991px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+@media (max-width : 375px) {
+    .sidenav {
+        height: 100%;
+    }
+}

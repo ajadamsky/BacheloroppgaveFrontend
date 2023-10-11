@@ -1,0 +1,324 @@
+/* @font-face {font-family: "AvenirNextLTPro";src: url("https://dutygestion.com/fuentes/FuenteKiri/AvenirNextLTPro-Regular.otf");}body {font-family: "AvenirNextLTPro";}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Open+Sans&display=swap');
+*/
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hjemmeside-container {
+  height: 100%;
+}
+
+.main-container {
+  width: 100%;
+  /*height: 650px; */
+  padding: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /*border: 2px solid red; */
+  height:850px;
+
+}
+
+.container1 {
+  width: 99%;
+
+}
+
+.main-container-item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+  max-width: 40%;
+  height:80%;
+  /*border: 2px solid black; */
+  
+}
+
+.image-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  max-width: 65%;
+  /*border: 2px solid yellow; */
+  margin-top: 10%;
+
+
+}
+
+.image-style {
+  background-size: contain;
+  background-repeat: no-repeat, repeat;
+  background-position: right;
+}
+
+.image1 {
+  margin: 0 auto;
+  width: 50%; 
+  height: 200px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat, repeat;
+  cursor: pointer;
+
+}
+
+.image2 {
+  margin: 0 auto;
+  width: 50%; 
+  height: 200px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat, repeat;
+  cursor: pointer;
+}
+
+.image3 {
+  margin: 0 auto;
+  width: 50%; 
+  height: 200px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat, repeat;
+  cursor: pointer;
+}
+
+.tittel {
+  /*  color: #1d3c34;
+  position: absolute;
+  top: 40%;
+  left: 3%; */
+  font-size: 60px;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-bottom: 2vw;
+  /*font-family: 'AvenirNextLTPro'; */
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #435A53;
+
+}
+
+.undertittel {
+  /*  color: #1d3c34;
+  position: absolute;
+  top: 50%;
+  left: 4%; */
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.7;
+  text-align: left;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+}
+
+.undertittel h3{
+  /*  color: #1d3c34;
+  position: absolute;
+  top: 50%;
+  left: 4%; */
+  line-height: 1.5;
+  text-align: left;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+}
+
+.col-sm {
+  color: #1d3c34;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  /* padding: 70px; */
+  /*border: 2px solid green; */
+  padding:12%;
+  height:650px;
+  text-align: left;
+}
+
+.forklaring {
+
+  padding: 4%;
+  font-weight: 500;
+  font-size: 34px;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+  background-color: #b7dc8f;
+
+  /*position:absolute;
+  width: 100%;
+  left: 0; */
+
+}
+
+.forklaring2 {
+
+  height: 550px;
+  font-weight: 500;
+  font-size: 33px;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+  background-color: #D4EABC;
+
+}
+
+.col-sm-4 h3{
+  line-height: 1.6;
+}
+
+.col-sm-5 h3{
+  line-height: 1.6;
+  text-align: left;
+}
+
+.forklaring3 {
+
+  height: 550px;
+  font-weight: 500;
+  font-size: 33px;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+  background-color: #b7dc8f;
+
+}
+
+.forklaring4 {
+
+  height: 550px;
+  font-weight: 500;
+  font-size: 33px;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+  color: #1d3c34;
+  background-color: #d4e5c1;
+
+}
+
+
+
+@media (max-width: 800px) {
+  .col-sm {
+    padding: 50px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .col-sm {
+    padding: 37px !important;
+    border: 1px solid lightgray;
+    border-style:dashed;
+    height:550px;
+    text-align: left;
+    
+  }
+
+}
+
+@media (max-width: 375px) {
+  .footer {
+    height: 150px;
+  }
+}
+
+@media (max-width: 414px) {
+  .image-container {
+    max-width: 80% !important;
+  }
+
+  .tittel {
+
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 7vw;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    color: #435A53;
+  }
+
+  .undertittel {
+    font-size: 5vw;
+  }
+  .image1 {
+ 
+      margin: 0 auto;
+      width: 50%;
+  }
+  .image1 {
+ 
+    margin: 0 auto;
+    width: 50%;
+}
+  .image2 {
+ 
+      margin: 0 auto;
+      width: 50%;
+  }
+  .image3 {
+ 
+    margin: 0 auto;
+    width: 50%;
+}
+}
+
+.main-text-box {
+  /*border: 2px solid black;*/
+  position: absolute;
+  height: 20%;
+  width: 50vw;
+  top: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+
+}
+
+@media (max-width: 991px) {
+  .main-container {
+    flex-direction: column !important;
+  }
+  .image-container {
+    max-width: 40%;
+  }
+
+  .main-container-item-1 {
+    height: 40% !important;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tittel {
+    text-align: center;
+  }
+
+  .undertittel {
+    text-align: center;
+  }
+
+  .image1 {
+    height: 150px;
+
+  }
+  
+  .image2 {
+    height: 150px;
+
+  }
+  
+  .image3 {
+    height: 150px;
+
+  }
+}

@@ -1,0 +1,120 @@
+.editorContainer{
+    height: 300px;
+    overflow: scroll;
+}   
+      .editor{
+        height:100%;
+        border: none;
+    }
+
+    @font-face {
+        font-family: 'AvenirNextLTPro-Regular';
+        src: url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+      }
+      
+      
+      .image-container2 {
+      
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+         /* border: 2px solid yellow; */
+          margin-top: 5%; 
+        }
+      
+      
+        .main-container-item2 {
+      
+          width: 100%;
+          height: 450px;
+         /* border: 2px solid red; */
+        }
+      
+      
+        .beskrivelse {
+      
+          height: 250px;
+          font-weight: 500;
+      
+          font-family: 'AvenirNextLTPro-Regular', sans-serif;
+          color: white;
+         /* border: 2px solid green; */
+          background-color: #1d3c34;
+          width: 87%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        
+        }
+      
+        .beskrivelse2 {
+      
+          font-family: 'AvenirNextLTPro-Regular', sans-serif;
+          color: #b7dc8f;
+          text-align: center;
+          /*border: 2px solid yellow; */
+        
+        }
+      
+        .beskrivelse3 {
+      
+          font-family: 'AvenirNextLTPro-Regular', sans-serif;
+          color: white;
+          /*border: 2px solid orange; */
+          width: 80%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 5%;
+          text-align: center;
+      
+        }
+      
+        @media (max-width: 414px) {
+      
+          .image-container2 {
+      
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 100%;
+             /* border: 2px solid yellow; */
+              margin-top: 5%; 
+            }
+      
+          .beskrivelse {
+      
+              height: 500px;
+          
+              font-family: 'AvenirNextLTPro-Regular', sans-serif;
+              color: white;
+             /* border: 2px solid green; */
+              background-color: #1d3c34;
+              width: 100%;
+      
+            
+            }
+          
+            .beskrivelse2 {
+          
+              font-family: 'AvenirNextLTPro-Regular', sans-serif;
+              color: white;
+              width: 95%;
+              text-align: left;
+      
+              /*border: 2px solid yellow; */
+            
+            }
+          
+            .beskrivelse3 {
+          
+              font-family: 'AvenirNextLTPro-Regular', sans-serif;
+              color: white;
+              /*border: 2px solid orange; */
+              width: 95%;
+              margin-top: 15%;
+              text-align: left;
+          
+            }
+        }    

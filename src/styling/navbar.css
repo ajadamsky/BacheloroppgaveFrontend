@@ -1,0 +1,79 @@
+
+@font-face {font-family: "AvenirNextLTPro";src: url("https://dutygestion.com/fuentes/FuenteKiri/AvenirNextLTPro-Regular.otf");}body {font-family: "AvenirNextLTPro";}
+.navbar {
+    background-color: #f0f4e3 !important;
+    box-shadow: rgba(0, 0, 0, 0.102) 0px 1px 8px;
+}
+
+@media (min-width : 992px) {
+    .nav-dropdown {
+        display: none;
+    }
+    .logo-phone {
+        display: none;
+    }
+    
+    
+}
+
+@media (max-width : 991px) {
+    .login-logout {
+        display: none;
+    }
+
+    .logo-screen {
+        display: none;
+    }
+
+    .azure-btn {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+.logout-img {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+  }
+
+.navbar-logo {
+    height: 55px;
+}
+
+.nav-mid-logo {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translate(-50%);
+}
+
+.azure-btn {
+    color: white !important;
+    border-color: #48a23f !important;
+    background-color: #48a23f !important;
+    font-family: 'AvenirNextLTPro';
+}
+
+.azure-btn:hover {
+    background-color: #1d3c34 !important;
+}
+
+.navbar{
+    /*   z-index should be above .close-navbar-toggler */
+      z-index:2;
+    }
+    .close-navbar-toggler{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      z-index:1;
+      cursor:pointer;
+    }
+    .close-navbar-toggler.collapsed{
+      z-index:-1;
+    }
